@@ -1,0 +1,25 @@
+{
+  "name": "1inch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fusion": "npx ts-node src/fusionSwap.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@1inch/fusion-sdk": "2.1.7",
+    "@fordefi/web3-provider": "^0.2.5",
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5"
+  }
+}
