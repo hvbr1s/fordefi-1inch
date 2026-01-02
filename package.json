@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fusion": "npx ts-node src/fusionSwap.ts"
+    "fusion": "npx tsx src/fusionSwap.ts",
+    "hash": "npx tsx src/computeOrderHash.ts ./order.json"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
     "@fordefi/web3-provider": "^0.2.5",
     "axios": "^1.8.4",
     "dotenv": "^16.4.7",
-    "ethers": "^6.13.5"
+    "ethers": "^6.13.5",
+    "tsx": "^4.21.0"
   }
 }
